@@ -1,0 +1,33 @@
+# ==========================================
+# Backend Git Ignore Rules
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+!example.env
+!.env.example
+
+# SQLite Database
+*.db
+*.sqlite
+*.sqlite3
+crm.db
+
+# Logs
+*.log
